@@ -79,10 +79,6 @@ function main() {
       });
   };
 
-  /*
-        jangan ubah kode di bawah ini ya!
-    */
-
   const renderAllBooks = (books) => {
     const listBookElement = document.querySelector("#listBook");
     listBookElement.innerHTML = "";
